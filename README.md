@@ -1,16 +1,18 @@
-# React + Vite
+# JsonDemoResume
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Мини‑проект на React + Vite: страница‑резюме, которая собирает данные из JSON и красиво их отображает.
 
-Currently, two official plugins are available:
+## Что тут есть
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Работа с JSON‑данными**: парсинг JSON‑строки, вывод списка проектов с тегами и статусами.
+- **Компоненты и пропсы**: структура из отдельных компонентов (шапка, карточка проекта).
+- **Состояния (`useState`)**: управление состоянием загрузки и отображения данных.
+- **Адаптивная вёрстка**: Flexbox для шапки (фото + блок с контактами), Grid для сетки проектов.
+- **Оформление**: аккуратные карточки, цветовые маркеры для статусов («готово» / «в работе»), читаемые теги.
 
-## React Compiler
+## Как запустить проект
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Установи зависимости:
+   ```bash
+   npm install
+   ```
