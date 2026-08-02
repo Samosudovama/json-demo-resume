@@ -69,7 +69,7 @@ function JsonDemo() {
             {/* Фото слева */}
             <div style={{ flex: "1", minWidth: "200px", textAlign: "center" }}>
                <img
-                  src="https://via.placeholder.com/200x250?text=Фото+Маши"
+                  src="/img.jpg"
                   alt="Фото Маши"
                   style={{
                      width: "180px",
@@ -82,7 +82,7 @@ function JsonDemo() {
                <p
                   style={{ marginTop: "12px", color: "#666", fontSize: "14px" }}
                >
-                  Здесь будет моё фото
+                  Это моё фото
                </p>
             </div>
 
@@ -92,13 +92,13 @@ function JsonDemo() {
                   Мария Самосудова
                </h1>
                <p style={{ margin: "4px 0", color: "#444", fontSize: "16px" }}>
-                  Дата рождения: 01.01.2000
+                  Дата рождения: 07.01.1981г.
                </p>
                <p style={{ margin: "4px 0", color: "#444", fontSize: "16px" }}>
-                  Адрес: г. Москва, ул. Примерная, д. 1
+                  Адрес: г.Тольятти, ул.Мира. д.43.
                </p>
                <p style={{ margin: "4px 0", color: "#444", fontSize: "16px" }}>
-                  Телефон: +7 (999) 000-00-00
+                  Телефон: +7 (967)491-07-32
                </p>
                <p style={{ margin: "4px 0", color: "#444", fontSize: "16px" }}>
                   GitHub:{" "}
